@@ -20,7 +20,7 @@ public class PageController {
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("title", "About Us");
 		mv.addObject("userClickAbout", true);
-		return mv;
+		return mv;			
 	}
 	@RequestMapping(value = "/contact")
 	public ModelAndView contact() {
