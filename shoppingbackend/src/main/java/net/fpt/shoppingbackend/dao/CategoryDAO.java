@@ -6,6 +6,5 @@ import net.fpt.shoppingbackend.dto.Category;
 
 public interface CategoryDAO {
 
-	
-	List<Category> list ();
+	List<Category> list();
 }
